@@ -1,0 +1,9 @@
+--- #3 dau gach bat buoc 
+-name : Cau hinh Switch 
+ hosts: all
+
+ tasks:
+  - name: show ip 
+    cisco.ios.ios_command: 
+      commands: show  ip int bri 
+
